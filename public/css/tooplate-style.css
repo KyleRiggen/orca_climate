@@ -91,7 +91,7 @@ body {
 }
 
 .tm-bg-circle-white {
-  background-color: white;
+  background-color: #424242;
   color: #6c6c6c;
   padding: 75px 81px 75px 90px;
   border-radius: 50%;
@@ -271,4 +271,8 @@ a.btn:hover {
   .tm-circle-img-container {
     margin-bottom: 30px;
   }
+}
+
+.logo {
+  max-width: 50%;
 }
