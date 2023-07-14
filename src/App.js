@@ -1,18 +1,21 @@
 function App() {
   return (
     <div>
-      <div>
+      <header>
         <section className="nav">
           <a></a>
-          <div>
+          <nav>
             <a href="#">menu item1</a>
             <a href="#">menu item2</a>
             <a href="#">menu item3</a>
             <a href="#">menu item4</a>
-          </div>
+          </nav>
         </section>
-      </div>
-      <p>just one thing</p>
+      </header>
+      <article>
+        <p>just one thing</p>
+      </article>
+      <footer>Copyright &copy; 2023 Orca Climate Fund</footer>
     </div>
   );
 }
